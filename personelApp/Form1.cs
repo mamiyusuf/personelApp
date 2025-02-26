@@ -143,7 +143,7 @@ namespace personelApp
                 if (result == DialogResult.Yes)
                 {
                     liste.Remove(gosterilenPersonel);
-                    liste.ResetBindings(); // Listeyi güncelle
+                    liste.ResetBindings(); // Listeyi güncelle ok
                     gosterilenPersonel = null;
 
                     // Alanları temizle
